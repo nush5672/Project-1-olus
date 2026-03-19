@@ -13,59 +13,87 @@
 
     <!-- Date & Time -->
     <div class="datetime">
-        <div><strong>Date:</strong> <span id="date">--</span></div>
-    <div><strong>Time:</strong> <span id="time">--</span></div>
+    <div class="left">
+        <strong>Date:</strong> <span id="date">--</span>
     </div>
 
-    <table>
+    <div class="center">
+        LGN DRM OFFICE
+    </div>
+
+    <div class="right">
+        <strong>Time:</strong> <span id="time">--</span>
+    </div>
+</div>
+
+
+    <table><b>
         <tr>
-            <td style="font-size:50px"><b>AQI</b></td>
+            <td style="font-size:40px">AQI</td>
             <td id="aqi" style="font-weight: 900;"><b>--</b></td>
-            <td>0 - 500</td>
-            <td style="font-size:50px">INDEX</td>
+            <td style="color: yellow;">0 - 50</td>
+            <td style="font-size:40px; color: cyan;">INDEX</td>
         </tr>
 
         <tr>
-            <td>PM 2.5<br>PM 10</td>
-            <td id="pm" style="font-size:30px ; font-weight: 900;"><b>--</b></td>
-            <td style="font-size:30px">0 - 100</td>
-            <td>µg/m³</td>
+            <td>PM 2.5</td>
+            <td id="pm" style="font-size:40px ; font-weight: 900;"><b>--</b></td>
+            <td style="font-size:40px; color: yellow;">0 - 60</td>
+            <td style="color: cyan;">µg/m³</td>
+        </tr>
+        <tr>
+            <td>PM 10</td>
+            <td id="pmten" style="font-size:40px ; font-weight: 900;"><b>--</b></td>
+            <td style="font-size:40px; color: yellow;">0 - 100</td>
+            <td style="color: cyan;">µg/m³</td>
         </tr>
 
         <tr>
-            <td style="font-size:50px"><b>SO2</b></td>
-            <td id="so2" style="font-size:30px; font-weight: 900;" ><b>--</b></td>
-            <td style="font-size:30px">0 - 50</td>
-            <td style="font-size:30px">ppm</td>
+            <td style="font-size:40px">SO2</td>
+            <td id="so2" style="font-size:40px; font-weight: 900;" ><b>--</b></td>
+            <td style="font-size:40px; color: yellow;">0 - 80</td>
+            <td style="font-size:40px; color: cyan; ">µg/m³</td>
         </tr>
 
         <tr>
-            <td style="font-size:50px"><b>NO2</b></td>
+            <td style="font-size:40px">NO2</td>
             <td id="no2" style="font-weight: 900;"><b>--</b></td>
-            <td>0 - 50</td>
-            <td>ppm</td>
+            <td style="color: yellow;">0 - 80</td>
+            <td style="color: cyan;">µg/m³</td>
         </tr>
 
         <tr>
-            <td>CO<br>CO2</td>
+            <td>CO</td>
             <td id="co" style="font-weight: 900;"><b>--</b></td>
-            <td>0 - 10</td>
-            <td>ppm</td>
+            <td style="color: yellow;">0 - 2</td>
+            <td style="color: cyan;">mg/m³</td>
+        </tr>
+        <tr>
+            <td>CO2</td>
+            <td id="co2" style="font-weight: 900;"><b>--</b></td>
+            <td style="color: yellow;">400 - 1000</td>
+            <td style="color: cyan;">ppm</td>
         </tr>
 
         <tr>
-            <td style="font-size:50px">NOISE</td>
+            <td style="font-size:40px">NOISE</td>
             <td id="noise" style="font-weight: 900;"><b>--</b></td>
-            <td>0 - 70</td>
-            <td>dB</td>
+            <td style="color: yellow;">55</td>
+            <td style="color: cyan;">dB</td>
         </tr>
 
         <tr>
-            <td>Temp<br>Humidity</td>
-            <td id="temp" style="font-weight: 900;"><b>--</b></td>
-            <td style="font-size:30px">--</td>
-            <td>°C / %RH</td>
+            <td>Temp</td>
+            <td id="temp" style="font-weight: 900; color: #00c853;"><b>--</b></td>
+            <td style="font-size:40px; color: yellow; ">20-30</td>
+            <td style="color: cyan;">°C </td>
         </tr>
+       <b> <tr>
+            <td>Humidity</td>
+            <td id="humidity" style="font-weight: 900; color: #00c853;"><b>--</b></td>
+            <td style="font-size:40px; color: yellow;">30-70</td>
+            <td style="color: cyan;">%RH</td>
+        </tr></b>
 
     </table>
 
